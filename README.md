@@ -1,3 +1,5 @@
+![FusionOS](extras/FusionBanner.png)
+
 ### Requirements
 - Around 200G disk space.
 - A computer/server with at least 16GB RAM running Linux.
