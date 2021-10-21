@@ -23,6 +23,7 @@
 
   <!-- vendor repos -->
   <project path="vendor/fuse" name="android_vendor_fuse" remote="fusion" />
+  <project path="vendor/support" name="android_vendor_support" remote="fusion" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="fusion" />
