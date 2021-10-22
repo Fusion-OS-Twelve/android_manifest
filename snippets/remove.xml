@@ -64,6 +64,8 @@
   
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- System -->
   <remove-project name="platform/bionic" />
