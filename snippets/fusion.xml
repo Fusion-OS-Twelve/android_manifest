@@ -2,6 +2,7 @@
 <manifest>
 
   <project path="manifest" name="android_manifest" remote="fusion" />
+  <project path="bionic" name="android_bionic" remote="fusion"/>
   <project path="build/make" name="android_build" remote="fusion" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
