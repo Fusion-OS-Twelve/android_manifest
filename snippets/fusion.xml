@@ -17,8 +17,14 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- hardware repos -->
- 
+  <!-- Device repos -->
+  <project path="device/fuse/sepolicy" name="android_device_fuse_sepolicy" remote="fusion" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="fusion" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="fusion" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="twelve-legacy" remote="fusion" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" groups="qcom,pdk-qcom" remote="fusion" />
+
+
   <!-- Packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="fusion" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="fusion" />
@@ -34,6 +40,7 @@
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="fusion" />
   <project path="system/vold" name="android_system_vold" remote="fusion" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="fusion" />
 
   <!-- recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="fusion" />
