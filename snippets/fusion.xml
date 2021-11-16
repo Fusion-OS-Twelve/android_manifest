@@ -32,6 +32,8 @@
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="fusion" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="fusion" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="fusion" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="fusion" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="fusion" />
 
   <!-- vendor repos -->
   <project path="vendor/fuse" name="android_vendor_fuse" remote="fusion" />
@@ -58,5 +60,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" />
   <project path="frameworks/base" name="android_frameworks_base" remote="fusion" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="fusion" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="fusion" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="fusion" />
 
 </manifest>

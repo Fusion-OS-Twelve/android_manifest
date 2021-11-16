@@ -74,6 +74,8 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/libs/systemui" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
@@ -85,7 +87,8 @@
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
-
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/modules/Wifi" />
 
   <!-- System -->
   <remove-project name="platform/bionic" />
