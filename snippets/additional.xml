@@ -12,6 +12,10 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <remote  name="fuse-gitlab"
+           revision="12.1"
+           fetch="https://gitlab.com/fusionos1/" />
+
   <remote  name="bitbucket"
            fetch="https://bitbucket.org"
            revision="sapphire" />
