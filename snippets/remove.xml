@@ -90,6 +90,7 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
 
   <!-- System -->
   <remove-project name="platform/bionic" />
