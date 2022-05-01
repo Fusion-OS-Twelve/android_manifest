@@ -61,6 +61,7 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="fusion" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="fusion" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="pdk" remote="fusion" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" />
