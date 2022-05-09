@@ -8,21 +8,20 @@
 
 ### Sync ###
 ```bash
-        repo init -u https://github.com/Fusion-OS/android_manifest -b twelve
-        repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j$(nproc --all)
-
+repo init -u https://github.com/Fusion-OS/android_manifest -b twelve
+repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j$(nproc --all)
 ```
 
 ### GAPPS ###
 Usage of GAPPS is optional
 ```bash
-WITH_GAPPS := true
+export WITH_GAPPS=true
 ```
 ### Build ###
 ```bash
-        source build/envsetup.sh
-        lunch fuse_$device-userdebug
-        make fuse-prod -j$(nproc --all)
+source build/envsetup.sh
+lunch fuse_$device-userdebug
+make fuse-prod -j$(nproc --all)
 ```
 
 Credits
