@@ -53,10 +53,6 @@
   <!-- recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="fusion" />
 
-  <!-- Hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="fusion" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="fusion" />
-
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="fusion" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="fusion" />
