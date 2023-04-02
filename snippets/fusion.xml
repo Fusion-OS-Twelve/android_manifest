@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="fusion"
-           fetch="https://github.com/Fuse-1"
+           fetch="https://github.com/Fusion-OS"
            revision="thirteen" />
 
   <project path="manifest" name="android_manifest" remote="fusion" />
